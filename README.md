@@ -34,7 +34,7 @@ device which produces mail.
 ## Build via podman
 
 ```shell
-podman build . -t "smtprelay"
+podman build . -t "smtprelay" --arch=amd64
 ```
 
 Push to registry (see [podman push](https://docs.podman.io/en/latest/markdown/podman-push.1.html))
